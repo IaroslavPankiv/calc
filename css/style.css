@@ -1,0 +1,114 @@
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    outline: none;
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    min-height: 1000px;
+    min-width: 100%;
+    position: relative;
+
+
+}
+
+
+
+.calc_all {
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd ;
+}
+
+.calc {
+    margin: 15px;
+    border: 1px solid #ddd ;
+}
+
+.calc_border {
+
+    display: flex;
+
+}
+
+.calc_disply {
+    border-bottom: 1px solid #ddd ;
+    min-height: 19.76px;
+}
+
+.calc_disply p {
+    font-size: 10px;
+    color: #000;
+    border: 1px solid #ddd ;
+    margin: 3px;
+    padding: 3px 10px;
+    min-height: 19.76px;
+
+
+}
+
+.calc_number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin: 2px;
+
+}
+
+.calc_number:focus {
+    outline:none;
+
+}
+
+.backspace {
+    font-size: 8px;
+    text-align: center;
+}
+
+.number {
+    width: 22%;
+    border: 1px solid #ddd;
+    margin: 2px;
+    text-align: center;
+}
+
+.number.perСent {
+    border: none;
+}
+.counter {
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin: 2px;
+    text-align: center;
+
+}
+
+.count:focus {
+    outline:none;
+
+}
+
+
+
+.backspace p, .clear{
+    font-size: 7px;
+
+}
+
+
